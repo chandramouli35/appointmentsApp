@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 900px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-head {
+  font-size: 32px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+}
+.apps-img {
+  width: 400px;
+}
+.line-el {
+  width: 80vw;
+  color: black;
+}
+.label-el {
+  color: #b5b7c4;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.input-cont {
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  padding: 4px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 0px;
+}
+.appointments-head {
+  color: #171f46;
+  font-size: 20px;
+}
+.unstarred-btn {
+  width: 100px;
+  border: 2px solid #8b5cf6;
+  background-color: transparent;
+  border-radius: 14px;
+  color: #8b5cf6;
+  align-items: flex-end;
+}
+.starred-btn {
+  width: 100px;
+  border: 2px solid;
+  color: white;
+  border-radius: 14px;
+  background-color: #8b5cf6;
+  align-items: flex-end;
+}
+.appointments-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appointments {
+  display: flex;
+  flex-wrap: wrap;
+}
